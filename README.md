@@ -8,10 +8,12 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+```
 1.Import the required library and read the dataframe.
 2.Write a function computeCost to generate the cost function.
 3.Perform iterations og gradient steps with learning rate.
 4.Plot the Cost function using Gradient Descent and generate the required graph.
+```
 
 ## Program:
 ```
@@ -96,14 +98,23 @@ predict2=predict(np.array([1,7]),theta)*10000
 print("For Population = 70000, we predict a profit of $"+str(round(predict2,0)))
 ```
 ## Output:
+
 ![193451349-54044b08-c80f-4f05-ad97-141dc786bb5a](https://user-images.githubusercontent.com/93427278/193603024-336ca9fd-db24-4738-93d6-6cb1d24963b6.png)
+
 ![193451383-381c1f04-a881-4799-8aff-51d80eebe419](https://user-images.githubusercontent.com/93427278/193603058-09715bdf-3fb8-4f85-859f-c00c24229943.png)
+
 ![193451390-afae50a3-8361-444f-9e9e-6a0326ca03a6](https://user-images.githubusercontent.com/93427278/193603102-cccc87b6-101c-44fe-9ce8-354c44a9953c.png)
+
 ![193451415-e3355674-f4cb-475c-ace4-0865cc3ed0c9](https://user-images.githubusercontent.com/93427278/193603136-85ebf796-f62c-4745-803e-a0ea08c9f62a.png)
+
 ![193451428-b9cb0d87-177a-4765-a181-f308f0bb54f6](https://user-images.githubusercontent.com/93427278/193603170-adb114ea-0ecd-471a-892b-1709ab1d1af2.png)
+
 ![193451434-623ee4ac-6eff-40fc-9748-0aaab1648297](https://user-images.githubusercontent.com/93427278/193603208-2ddf9dd2-8b88-4d00-873c-a45d2a8e3d57.png)
+
 ![193451460-c1348099-e723-4361-9d7e-dfd8fbe47f2d](https://user-images.githubusercontent.com/93427278/193603254-20c94237-28ee-4ecf-a23d-fc9280d9861f.png)
+
 ![193451463-efdafc0d-f7a6-4e15-91c5-daea849643cf](https://user-images.githubusercontent.com/93427278/193603300-222f70e4-a2cb-4c76-a3d4-de812f2d7fc1.png)
+
 ![193451468-d702ab15-e83b-45f2-b30b-aaca4f0508d7](https://user-images.githubusercontent.com/93427278/193603348-86ce9395-e480-40c7-a01a-1c3f714f9b92.png)
 
 ## Result:
